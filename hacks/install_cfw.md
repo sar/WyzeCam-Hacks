@@ -6,7 +6,7 @@
     --- | --- 
     [Xiaomi DaFang](https://github.com/EliasKotlyar/Xiaomi-Dafang-Hacks/raw/master/hacks/cfw/dafang/cfw-1.3.bin) | d45826d5b471564366b3b9435509df7e8a2c0720656ea2b4bcac6dd0b42cc3eb
     [Xiaomi XiaoFang T20](https://github.com/EliasKotlyar/Xiaomi-Dafang-Hacks/raw/master/hacks/cfw/xiaofang/cfw-1.0.bin) | 333053c3e98af24e0e90746d95e310a3c65b61f697288f974b702a5bcbba48a9
-    [Wyzecam V2/Neos SmartCam](https://github.com/EliasKotlyar/Xiaomi-Dafang-Hacks/raw/master/hacks/cfw/wyzecam_v2/cfw-1.1.bin) | ca8fd695fe1903bd12aca2752c86b62c9694430c9c41b2804b006c22e84f409d
+    [Wyzecam V2/Neos SmartCam](https://github.com/EliasKotlyar/Xiaomi-Dafang-Hacks/raw/master/hacks/cfw/wyzecam_v2/cfw-1.2.bin) | ca8fd695fe1903bd12aca2752c86b62c9694430c9c41b2804b006c22e84f409d
     [Wyzecam Pan](https://github.com/EliasKotlyar/Xiaomi-Dafang-Hacks/raw/master/hacks/cfw/wyzecam_pan/cfw-1.0.bin) | f76990d187e763f160f5ad39331d6a3209d3025fe3719cb43c92dbad92cebba2
     Xiaomi XiaoFang T20L | [Start here](/hacks/install_cfw_t10l.md.md)
     Sannce & clones | [Start here](/hacks/install_sannce.md)
@@ -81,6 +81,7 @@ Remove the "run.sh" file from the microSD card.
 2. If the bootloader step is not working, double check the microSD card again for files or folders created by the stock firmware. (Sometimes if your timing is off with the setup press the camera will create a time stamp related folder that needs to be deleted before trying again).
 3. Make a note of the MAC for the camera and if possible set up DHCP to assign a specific IP address that can be monitored visually in DHCP logs.
 4. Start with fewer entries in your wpa_supplicant.conf to isolate WiFi issues.
+5. SD card troubles may be fixed by formatting the card using the <a href = 'https://www.sdcard.org/downloads/formatter/'>official SD Memory Card Formatter</a>
 ```
 ctrl_interface=/var/run/wpa_supplicant
 ctrl_interface_group=0
